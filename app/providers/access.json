@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "subject": "manage",
+    "action": "all"
+  },
+
+  "customer": {
+    "permissions": {
+      "notes": ["create"]
+    }
+  },
+  
+  "employee": {
+    "permissions": {
+      "notes": ["create", "update"]
+    }
+  },
+  "other": {
+    "permissions": {
+      "notes": []
+    }
+  }
+  
+
+}

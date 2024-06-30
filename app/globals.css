@@ -1,0 +1,256 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.create-btn {
+  margin-bottom: 20px;
+  background: green;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-note-box {
+  display: flex;
+  width: 400px;
+}
+.add-note-field {
+  width: 100%;
+}
+.add-note-field {
+  font-size: 14px;
+    width: 80%;
+    padding: 10px 12px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+.add-note-btn {
+  outline: none;
+  font-size: 29px;
+  padding: 0px 13px;
+  color: #fff;
+  border: 1px solid transparent;
+  background: gray;
+  border-radius: 0px 5px 5px 0px;
+}
+.create-btn:disabled {
+  background: gray;
+  color: #fff;
+  cursor: not-allowed;
+}
+.edit-btn {
+  margin-left: 10px;
+  background: rgb(199, 199, 29);
+  color: #000000;
+  border: 1px solid transparent;
+
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-bottom: 10px; */
+}
+.edit-btn:disabled {
+  background: gray;
+  color: #fff;
+  cursor: not-allowed;
+}
+.delete-btn {
+  background: red;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn-dis {
+  background: gray;
+  color: #fff;
+  cursor: not-allowed;
+}
+.note-list-ul {
+  list-style: none;
+  padding: 0px;
+}
+.note-li {
+  width: 400px;
+  margin: 9px 0px;
+  background: #e1e1e1;
+  padding: 7px 11px;
+  border-radius: 5px;
+}
+
+.note-list-wrap {
+  display: flex;
+}
+.btn-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.note {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.submit-btn {
+  cursor: pointer;
+  padding: 10px;
+  background: rgb(100, 100, 224);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 3px;
+}
+
+.edit-input{
+  width: 79%;
+  outline: none;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.edit-save-btn {
+  padding: 11px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 5px;
+  background: #2bb32b;
+  color: #fff;  
+  cursor: pointer;
+}
+.edit-btn svg{
+  font-size: 21px;
+} 
+.btn-wrap svg {
+  font-size: 21px;
+}
+
+
+.login-form-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+}
+
+.login-form {
+  width: 300px;
+}
+.login-form-field-box {
+  width: 100%;
+}
+.login-field {
+  width: 88%;
+    border: 0px;
+    border: 1px solid #a29b9b;
+    padding: 11px 17px;
+    border-radius: 5px;
+    margin: 3px 0px;
+    outline: none;
+    font-size: 15px;
+}
+.error-msg {
+  margin: 4px 2px;
+  font-size: 14px;
+  color: red;
+
+}
+.login-btn-box {
+  display: flex;
+  justify-content: center;
+}
+.login-btn {
+  background: #5a5aff;
+  color: #fff;
+  padding: 8px 18px;
+  border: 1px solid transparent;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 0.3s all  ;
+}
+.login-btn:hover {
+  background: #34349c;
+  /* color: #000; */
+  border-color: #000;
+}
+.login-page-userboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-btn {
+  background: red;
+  color: #fff;
+  padding: 11px 23px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.test-note {
+  display: flex;
+  justify-content: center;
+}
+
+/* pages/credentials.css */
+.container {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header,
+.table-cell {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-header {
+  background-color: #f2f2f2;
+}
+
+.table-cell {
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+  .add-note-box {
+    width: 100%;
+  }
+  .note-li {
+    width: 90%;
+  }
+  .note {
+    width: 100%;
+  }
+  .note-list-ul {
+    width: 100%;
+    margin: 10px 10px;
+
+  }
+}
