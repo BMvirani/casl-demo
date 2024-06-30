@@ -25,6 +25,13 @@ const CredentialsPage = () => {
       userType: "customer",
       permissions:["Create"]
     },
+    {
+      id: 3,
+      email: "other@gmail.com",
+      password: 123456,
+      userType: "other",
+      permissions:["No Access"]
+    },
   ];
 
   const accessRoles = {
